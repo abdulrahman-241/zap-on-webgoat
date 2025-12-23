@@ -1,10 +1,14 @@
 # zap-on-webgoat
 The web pentesting is perfomed on the webgoat using the ZAP . In this i described about some of the common attack and their prevention
 # zap on kali linux
+
 first of all you have to download webgoat . search webgoat on your browser and owasp webgoat 
 <img width="414" height="470" alt="image" src="https://github.com/user-attachments/assets/54610f6e-dc84-4647-a3ce-f6d5a79b0455" />
+
 go at standard jars and then github page will be open . then click on webgoat which is at top and then 
+
 <img width="851" height="650" alt="image" src="https://github.com/user-attachments/assets/415b5e59-58df-4952-8fbe-1e6935eb2e3b" />
+
 go for webgoat.jar and download this . as this will be in download so
 
 sudo apt update 
@@ -21,7 +25,9 @@ open and past the link ( there only one search bar where http were already writt
 
 
 
-#NMAP
+# NMAP
+
+
 now to use nmap you have to open new terminal while running webgoat . 
 nmap 127.0.0.1 -sV (this will tell the version of running service on a port )
 nmap 127.0.0.1 --script http-sql-injection (this will tell that sql can be perfomed or not )
