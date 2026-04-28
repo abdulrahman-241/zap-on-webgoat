@@ -12,8 +12,14 @@ go at standard jars and then github page will be open . then click on webgoat wh
 go for webgoat.jar and download this . as this will be in download so
 
 sudo apt update 
+
+
 sudp apt upgrade
+
+
 cd Downloads
+
+
 java -jar webgoat(press tab now)
 
 then this will run if you dont find java compatible version then download this from oracle and download and install (also run "sudo dpkg -i jdk-25.0.1_linux-x64_bin.deb" by locating cd download and install)
